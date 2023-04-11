@@ -1,0 +1,282 @@
+{"0": {
+    "doc": "Account",
+    "title": "Account",
+    "content": "This section will tell you how to Create an Account, log in, etc. ",
+    "url": "/docs/account",
+    
+    "relUrl": "/docs/account"
+  },"1": {
+    "doc": "Configure Options",
+    "title": "Configure Options",
+    "content": "This section allows you to choose many different options for your contest - from frequency of voting to how to display the output PDF or PNG files. We’ll look at each section by section. Be sure to press the Update button at the bottom to save your changes. General Options . Limit Responses (per user) - This determines how many times a voter (someone who scans the QR code) can vote. The default is Once. This will allow a person to have just one vote that counts. They can change votes by scanning another one, but that will cancel their first vote. You may also choose: . Hourly - can vote one time per hour . Daily - can vote one time per day . Once - (default) can vote one time only . No Limit - can vote as many times as they want . Question Page Header (2 lines maximum) - This text will appear at the top of the generated PDF file. It will not show on a PNG image if you choose that output option later. The text should help the voter understand what they are supposed to do. The default of Use your phone’s camera to vote. Scan, Click, Done. is an example. You may put anything you like there - but it has a maximum of 2 lines. Question Page Appearance . 1. QR Code - You may choose the internal Code Shape and foreground and background colors of the QR code that is generated for your answers. The default internal Code Shape is a square, but there are many options. Press the left and right arrow buttons to choose your code. You should be sure to try your choice out at the size you print so you can verify the code will scan. You can choose the colors of the QR code by clicking on the foreground (left box) and background (right box) color boxes. Logo - Optionally, you may add a logo that gets printed on the lower left of the generated PDF - it will not show up if you choose PNG output. You may Upload an image from your device, or you can Take Photo if your device supports it. Make sure if you alter any values in this section, you need to scroll down and press the Update button. 2. Default QR Layout for Text Answers - Currently, there is no choice here. If your answers are text-only (vs photo or photo + text), then they will print with the QR code above the text of the answer. 3. Default QR Layout for Photo Answers - The images show the layout of the QR code (shown in color) vs. the image (shown in grey). For example, the first one shows the QR code in the upper left (default) and the image behind and to the right of it. You may choose the position of the QR code by selecting one of the 6 choices. The below image shows how this is printed when you have image answers with answer text in a PDF. 4. Fit and Opacity for Photo Answers - You may choose how photos are scaled into the viewable area by selecting Cover or Contain. Cover means that the photo will comletely fill the static rectangle area of the destination (like the image above). Contain will scale the photo proportionately keeping its aspect ratio into the destination rectangle - so that you see the whole photo (below). Opacity can be controlled by moving the slider left or right. By default, the photo will completely overwrite whatever is under it. For example, on PNG files, it is possible to make the background of the screen a color (say blue) and then change the opacity of the photo so that the background ‘bleeds through’ the photo. You can play with this to see the effects it has in the varying output formats. QR Scan Response Chart Style . Select chart style - After the user scans an answer, they are redirected to a page that will show them a “Thank You” page, a pie chart or a gradient chart. The “Thank You” page will not display any results. Both of the other chart types will display the results of prior votes and the current user’s vote. You may pick which type of page is displayed here (pie or gradient). ",
+    "url": "/docs/contests/config_opts.html#configure-options",
+    
+    "relUrl": "/docs/contests/config_opts.html#configure-options"
+  },"2": {
+    "doc": "Configure Options",
+    "title": "Configure Options",
+    "content": "Quick Links . | Configure Options . | General Options | Question Page Appearance | QR Scan Response Chart Style | . | . Configure Options ",
+    "url": "/docs/contests/config_opts.html",
+    
+    "relUrl": "/docs/contests/config_opts.html"
+  },"3": {
+    "doc": "Contest Overview",
+    "title": "Contest Overview",
+    "content": "Quick Links . | Add Contest | Search for Contest | Filter List | Contest Detail Screen . | Contest Edit . | Update attributes | Delete Contest | Archive Contest | . | . | . Clicking on the Contests tab will take you to the area where you can see a list of your Contests. ",
+    "url": "/docs/contests/contest_overview.html",
+    
+    "relUrl": "/docs/contests/contest_overview.html"
+  },"4": {
+    "doc": "Contest Overview",
+    "title": "Add Contest",
+    "content": "You may add a new contest by pressing on the plus sign Add Contest. This will insert a blank contest name text box. Fill in the name and press tab or return. ",
+    "url": "/docs/contests/contest_overview.html#add-contest",
+    
+    "relUrl": "/docs/contests/contest_overview.html#add-contest"
+  },"5": {
+    "doc": "Contest Overview",
+    "title": "Search for Contest",
+    "content": "Press the magnifying glass in the upper right to search for a contest. If you have a lot of contests, this is handy. ",
+    "url": "/docs/contests/contest_overview.html#search-for-contest",
+    
+    "relUrl": "/docs/contests/contest_overview.html#search-for-contest"
+  },"6": {
+    "doc": "Contest Overview",
+    "title": "Filter List",
+    "content": "At the top of the screen, it will say Contests - Active or Contests - Archive. The default is to show you the Active Contests that you have. You may also show a list of the Archived Contests by choosing the filter icon in the upper right, then choosing Archive. When you first start, there won’t be any Archived Contests. However, if you start getting a lot of Contests that have been active in the past, you can Archive ‘old’ Contest by clicking on the Contest name, then in the upper right corner of the Contest Detail Screen, you may click the edit icon and choose the Archive button. You will be prompted to confirm you would like to Archive. See Contest Edit . ",
+    "url": "/docs/contests/contest_overview.html#filter-list",
+    
+    "relUrl": "/docs/contests/contest_overview.html#filter-list"
+  },"7": {
+    "doc": "Contest Overview",
+    "title": "Contest Detail Screen",
+    "content": "Clicking on the Contest name will open the Contest detail screen where you can add Questions and Answers as well as set properties (how many times can they vote? what color is my QR code, etc.). Any time you have text in a list, you may long-press on it to edit the text inline. This saves you steps from pressing the pencil and editing the text in a form. This section will show you the different options available for your contest. You add Questions and Answers here as well as Configure Options for the contest (like how many times someone can vote), Print or Download your contest as a PDF or PNG files, finally - Pay and Launch your contest. ",
+    "url": "/docs/contests/contest_overview.html#contest-detail-screen",
+    
+    "relUrl": "/docs/contests/contest_overview.html#contest-detail-screen"
+  },"8": {
+    "doc": "Contest Overview",
+    "title": "Contest Edit",
+    "content": "Pressing the edit icon in the upper right will open the Contest Edit screen. See below: . Update attributes . You may change the name of the contest; add an abbreviation (the abbreviations show up when you are viewing the Results tab; add tags (these are currently not displayed in the interface, but will be used in a future version to help you track things); or add a description. If you change a value, you should press the Update button. Delete Contest . If you select the Delete button, you will be prompted to make sure you really want to delete the Contest. Deleting the Contest will remove it completely and it can not be restored. All of your Questions, Answers, votes, etc. will be tossed away. So, make sure you really want to delete the Contest. An alternative is below - you may Archive the contest. Archive Contest . If you select the Archive button, you will be prompted to confirm you would like to archive this Contest. Archiving a contest allows you to save the information, but the Contests page won’t show it’s name if you have the Active filter enabled. See Filter List above. ",
+    "url": "/docs/contests/contest_overview.html#contest-edit",
+    
+    "relUrl": "/docs/contests/contest_overview.html#contest-edit"
+  },"9": {
+    "doc": "Contests Tab",
+    "title": "Contests Tab",
+    "content": ". The Contests tab is used to create or show your contests. This is the starting point for you to create your contests. You may choose the plus sign Add Contest to create a new Contest. After clicking the plus sign, you enter the Contest name you would like to use in the empty text box. Press tab or return to save the Contest name. Next, click on the Contest name to take you to the details of the contest. You may add Questions and Answers, then optionally Configure your Contest presentation, print sample output and ultimately pay for your Contest to go live. See more here. All of your Contests will be listed here. You may also use the magnifying glass in the upper right corner to search for a specific Contest. There is also a filter icon to allow you to choose between viewing Active and Archived Contest. You may Archive a Contest by clicking on the Contest name, then choosing the Edit icon in the upper right. Archive will be a choice on that edit screen . ",
+    "url": "/docs/contests.html#contests-tab",
+    
+    "relUrl": "/docs/contests.html#contests-tab"
+  },"10": {
+    "doc": "Contests Tab",
+    "title": "Contests Tab",
+    "content": " ",
+    "url": "/docs/contests.html",
+    
+    "relUrl": "/docs/contests.html"
+  },"11": {
+    "doc": "Create Account",
+    "title": "Create an Account",
+    "content": "1To create an account, go to https://app.qr-contest.com and select Create Account in the top tab. 2Enter a Usename, Password, Email and your Name. You are required to accept the Terms &amp; Conditions to use QR-Contest. 3To verify your account, you will receive an email from no-reply@verficationemail.com - which is an Amazon service - that contains your verification code, e.g.: . 4Enter you verification code on the next screen that will appear after you click Create Account and press Confirm . 5Your account is now created. To manage your account, go to the Home tab and choose the menu in the upper right, then Edit Profile. ",
+    "url": "/docs/account/create.html#create-an-account",
+    
+    "relUrl": "/docs/account/create.html#create-an-account"
+  },"12": {
+    "doc": "Create Account",
+    "title": "Create Account",
+    "content": " ",
+    "url": "/docs/account/create.html",
+    
+    "relUrl": "/docs/account/create.html"
+  },"13": {
+    "doc": "First Contest",
+    "title": "First Contest",
+    "content": "This section will show you how to create your first Contest with a single Question and 3 Answers. For QR-Contest, go to https://app.qr-contest.com and log in. If you have not created an account, go here Creating an Account to learn how to sign up. 1Choose Contests in the bottom nav bar . 2Press the plus sign Add Contest . 3Enter the Contest name and press &lt;Enter&gt; . 4Click on the Contest name to add Question(s) and Answers here: . 5Click Add Question, enter the question, e.g. Which chicken do you like better? . Any time you have text in a list, you may long-press on it to edit the text inline. This saves you steps from pressing the pencil and editing the text in a form. 6Click Add Answer. Enter some text answers (we'll add images later). 7Scroll down and click the Print/Download section accordion. 8You can make a PDF or individual PNG files; just scroll down skipping the options and click Make PDF . 9Your PDF will be generated showing your Question and Answers. 10After it downloads, you can click on the name to print it or display it on your screen. You can also click the copy icon to copy the URL and paste it into another browser window/tab. 11Now you can test your Contest Question by using your phone's camera and scan one of the QR code answers. When the link appears, click it. Done! You're answer will be recorded and you will see the results. To see how to add photos to the answers, check out the next section: Photo Answers . ",
+    "url": "/docs/quickstart/firstcontest.html#first-contest",
+    
+    "relUrl": "/docs/quickstart/firstcontest.html#first-contest"
+  },"14": {
+    "doc": "First Contest",
+    "title": "First Contest",
+    "content": " ",
+    "url": "/docs/quickstart/firstcontest.html",
+    
+    "relUrl": "/docs/quickstart/firstcontest.html"
+  },"15": {
+    "doc": "Help Tab",
+    "title": "Help Tab",
+    "content": ". You’re already reading it! . ",
+    "url": "/docs/help.html",
+    
+    "relUrl": "/docs/help.html"
+  },"16": {
+    "doc": "Home Tab",
+    "title": "Home Tab",
+    "content": ". Quick Links . | Home Tab . | Recent Results | Viewing Mode | Billing Transaction | Menu . | Change Password | Plan Notifications | Billing | Terminate Service | . | . | . ",
+    "url": "/docs/home.html",
+    
+    "relUrl": "/docs/home.html"
+  },"17": {
+    "doc": "Home Tab",
+    "title": "Recent Results",
+    "content": "Recent Results Selecting this section will allow you to see the latest results from your contest(s). If nothing is shown, then there are no recent results to display. Results are shown in graphical format (pie chart, bar chart, etc.). You may go to the Results bottom tab to see all of your contest’s results. ",
+    "url": "/docs/home.html#recent-results",
+    
+    "relUrl": "/docs/home.html#recent-results"
+  },"18": {
+    "doc": "Home Tab",
+    "title": "Viewing Mode",
+    "content": "Viewing Mode Viewing Mode is used from a mobile device to allow you to test your contest without registering any votes. The default is for your device to record votes after you scan a QR code. To test your QR codes, you may select VIEW RESULTS to see how many votes have been cast, but your scan will not register as a vote. Set QR Scan Mode to RECORD votes from this device. Set QR Scan Mode to VIEW RESULTS from this device - responses will not be recorded. ",
+    "url": "/docs/home.html#viewing-mode",
+    
+    "relUrl": "/docs/home.html#viewing-mode"
+  },"19": {
+    "doc": "Home Tab",
+    "title": "Billing Transaction",
+    "content": "Billing Transaction This section will only show up immediately after you have purchased something. See Purchase Confirmation for details. It will show a summary of the purchase here - but only directly after the purchase. If you want to see a list of all purchases, click the menu icon in the upper right and choose Edit Profile, then Billing. All transactions will show up there. If you want to see the billing items for a particular Contest, go to the Contest Detail page and scroll down to the Pay and Launch section. ",
+    "url": "/docs/home.html#billing-transaction",
+    
+    "relUrl": "/docs/home.html#billing-transaction"
+  },"20": {
+    "doc": "Home Tab",
+    "title": "Menu ",
+    "content": "In the upper right corner of the Home tab is the 3 bar menu. This menu allows you to edit your profile (Change Password, Notifications, Billing, Terminate Service) or Log Out. Below are the sections after choosing Edit Profile. Change Password . Change Password Your username will show at the top of the section, followed by a place to enter your old password and to enter your new password and confirm it. Once you hit the Update button, your password will be reset. If you forget your password, see the Forgot Password section. Plan Notifications . Plan Notifications Currently, the only notification setting is Notify Me of Response Limits via Email. The default is ‘on’. When you purchase a Contest, there is a pre-defined number of responses (votes) and a timeframe associated with the Contest. If you are getting more responses than you thought, you will get an email notification letting you know that you have run out of responses (number left is 0). You can increase your limit by going to the Pay and Launch section of the Contest Detail page. Below is a sample where a new Answer was added and a Purchase Extension was chosen to add 5,000 responses and 2 more months. In addition, you will get notifications for every 25% overage that you have. So, if you initially paid for 1,000 responses and you now have 1,250 responses, you will get an email letting you know you are over your limit. For every 25% over, you will get a new email until the campaign time runs out, or you pay for the overage. Your contest will still be recording votes when you go over your response limit, however, you will not see them unless you go back to the Pay and Launch section and purchase the overage responses by selecting Purchase Responses to Offset Overage of X Responses - where X is the number of responses you are over. You should try go guess accurately how many responses you will get, as the overage price is slightly more than if you had purchased enough responses in the beginning. Once you pay for the overage, your Responses will show up in your Results. Billing . Billing The Billing section will contain all of the transactions you have had. They will be separated by Contest name and Questions. You can see each transaction you have had for each Question. The below summary shows that we paid for 1 Contest called Chicken Contest with 1 Question Which chicken do you like better?. We purchased it on 3/22/2023 with 3 answers and 15,000 responses (remember this was a big contest at a rodeo). Then, 2 days later we added an Answer (a new chicken) and paid for that. The same day, we added 1,500 more responses because they sold out the rodeo and we thought we could use the padding. Terminate Service . Terminate Service If you are finished using QR-Contest (we hope not), you may terminate your service in this section. There are 2 options: . Cancel Service - disable and archive data . This option will mark all of your data as archived in our backend and remove your user account. You may contact us at a later date to re-enable your account and data. We will only hold onto your archived data for no more than 60 days. After that, the data will be removed and we will be unable to restore it. Delete Service - permanently remove data - cannot be undone . This is irreversible. Once you select this option and choose Update, you will be prompted to make sure you are positive that’s what you want to do. If you respond Yes to terminate the service, your data is gone for ever and we will be unable to restore any of it. ",
+    "url": "/docs/home.html#menu-",
+    
+    "relUrl": "/docs/home.html#menu-"
+  },"21": {
+    "doc": "Photo Answers",
+    "title": "Photo Answers",
+    "content": ". Answers may have Text answers, Photo answers or a combination of both. This will show you how to add Photos to your answers. After completing the steps in First Contest, you may add photos to your answers so the answers have more visual appeal. 1Go to your Contest under the Contest bottom tab. 2Click on the Contest created in First Contest. For this example, we used Which chicken do you like better? . 3 For each answer shown there are 3 icons on the line. The up/down arrow allows you to drag the order of the answers so they display in that order (long press on them to drag them). The pencil icon allows you to edit the details of the answer (there are many options). The trash can icon (not shown) on the far right allows you to delete that answer (it will ask you to confirm prior to actually deleting it.) 4Let's add photos to each chicken. Click the pencil icon next to Lady Feathers. For details of all the options, see the Edit Answers page. For now, we'll just add a photo. Click the Photo checkbox. This will add an Image Preview section. You may enter a URL, Upload an photo, or if you are on your phone - Take a Photo. We’ll upload an photo. After the photo is uploaded, you may rotate it by using the rotation buttons. You will only be able to rotate it when you upload it, not after you save it by pressing Update. Scroll down and select the Update button to save your Photo. 5Repeat the process for each Answer. You will end up with something like this: . 6Scroll down to the Print/Download accordion and click on it, then scroll down to the Make PDF button (notice the section *4. Fit and Opacity for Photo Answers*, it is set to 'Cover'). Click the Make PDF button, then download and view your PDF. 7Click on Print/Download again to close then open it. Scroll down to section *4. Fit and Opacity for Photo Answers* and choose Contain. Then click Make PDF . ",
+    "url": "/docs/quickstart/imageanswers.html#photo-answers",
+    
+    "relUrl": "/docs/quickstart/imageanswers.html#photo-answers"
+  },"22": {
+    "doc": "Photo Answers",
+    "title": "Photo Answers",
+    "content": " ",
+    "url": "/docs/quickstart/imageanswers.html",
+    
+    "relUrl": "/docs/quickstart/imageanswers.html"
+  },"23": {
+    "doc": "Introduction",
+    "title": "QR-Answers.com and QR-Contest.com",
+    "content": "QR-Answers and QR-Contest are survey-like applications that allow you to publish a question where the answers are marked with QR codes. Most QR code survey apps take you to a web page where you have to fill out a lengthy survey or set of forms. Those survey types lose 90% of thier participants in the first few questions. QR-Answers and QR-Contest are different because the answer is the QR code. The voter only has to scan the code on their phone and click the displayed link. Done! That action alone registers the answer that they have chosen - no surveys, no extra stuff to fill out. QR-Answers is for enterprise customers wishing to survey multiple projects and locations and is fully multi-user and collaborative. QR-Contest is more consumer focused to allow you to have a fun way for people to vote for their favorite chilli in a cookoff, artwork on a wall, whether they were naughty or nice, etc. ",
+    "url": "/#qr-answerscom-and-qr-contestcom",
+    
+    "relUrl": "/#qr-answerscom-and-qr-contestcom"
+  },"24": {
+    "doc": "Introduction",
+    "title": "Quick Start",
+    "content": "Here is a video with a brief walkthrough. Here is a simple question (you can follow the Quick Start to see the full question) with a set of 3 answers. You can see the first answer is scanned and shows a highlighted link qr-answers.com &gt;. When you select the link, it will take you to a page that shows your response (Lady Feathers) and all the recorded responses in graphical format (there are lots of choices for this page). Done! . To get started go to the Quick Start . As the creator of the contest, you are able to log into https://app.qr-contest.com and view the results for the most recent Contests on the home page or see all the results under the Results bottom tab. ",
+    "url": "/#quick-start",
+    
+    "relUrl": "/#quick-start"
+  },"25": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"26": {
+    "doc": "Pay and Launch",
+    "title": "Pay and Launch",
+    "content": "This section is used to actually pay for and launch your Contest. Until you purchase your Question(s) and Answers here, your contest will be in ‘draft’ or ‘test’ mode. Every scan of your answers will ‘overwrite’ the last scan’s vote. So, you can scan each answer and every time the results show, they will only show one result. To get all votes to count, you need to purchase your Question here. This is also the place to come back to if you want to add more Answers (for example, you launch a chili cookoff and someone comes in with a late entry after you purchased the Question). If your contest is very successful and you only purchased a small number of responses, you can add more responses here. In addition, if you go over your response limit, there is an option to acquire your overage responses here. In short, you should check back here every so often to see if you need to purchase any new responses, etc. If you have selected to receive notifications from the Home page menu - Edit Profile - you will receive an email if your responses are getting close to the limit. Come back here to add more responses if you want to see them. Purchase Question and Answers . | The first thing you need to do is purchase your Question and Answers. This section will show you how many Questions you have with how many Answers. You need to select the plan option you would like to purchase from the dropdown(s). For our example, we have a Question with 3 Answers. We think we’ll be super successful, so we choose the option with 15,000 responses and 3 months to receive them. We’re posting this Contest on a big Daktronics display at a rodeo! | . Sripe Checkout . | Be sure to check the Purchase option in the dropdown and then click Checkout. You will be redirected to a Stripe checkout page that will display the total you owe. Fill in your credit card information and then click Pay Now. If you don’t want to purchase at this time, hit the back arrow in the upper left by the word Payment. | . Purchase Confirmation . | After the purchase is confirmed, the interface will redirect to the Home page and show you the most recent purchase you just completed. | . This will only show up on the Home page right after your purchase is complete. We use Stripe to process payments. If you want to see your overall payment history, you can go to the Home tab, select the Menu in the upper right corner, then Edit Plan, then choose the Billing accordion. This will show a complete history of your purchases. Contest Purchase History . If you would like to see only the purchase related to a particular contest, go to the Contests, click on the contest you are interested in, then click on the Pay and Launch accordion. The purchase history and options to purchase other items will show up there. Here is an example of a single Question being purchased that has 3 answers. All 3 answers have been paid for. Purchasing Additional Answers . If you had a late chili entry like the example above, you might see (4 answers, 3 purchased) and the dropdown would recommend you paying for the 4th answer, otherwise it would not be counted in the voting. See below: . ",
+    "url": "/docs/contests/pay_launch.html#pay-and-launch",
+    
+    "relUrl": "/docs/contests/pay_launch.html#pay-and-launch"
+  },"27": {
+    "doc": "Pay and Launch",
+    "title": "Pay and Launch",
+    "content": "Quick Links . | Pay and Launch . | Purchase Question and Answers | Sripe Checkout | Purchase Confirmation | Contest Purchase History | Purchasing Additional Answers | . | . Pay and Launch ",
+    "url": "/docs/contests/pay_launch.html",
+    
+    "relUrl": "/docs/contests/pay_launch.html"
+  },"28": {
+    "doc": "Print/Download",
+    "title": "Print/Download",
+    "content": "This section allows you to choose whether to output PDF(s) for your Question(s) and Answers or to output PNG files (individual images per file). You are allowed to print your contest so that you may test the voting. Until you launch your contest by paying for it, the results will only show the last vote scanned. So, if you have a quesiton with 3 answers and you print a PDF out, you can test your campaign by scanning them one at a time and seeing the results. Each time you scan (no matter who scan), the prior result will be removed. You can think of this as a ‘draft’ mode where you are just testing your contest, but not really aggregating results. After testing and your’re ready to launch/publish your contest, go to Pay and Launch . PDF . PDF - this will output one PDF per Question. The Answers will be arranged automatically on the page. You should not put more than 6 answers on a Question if you want them to layout correctly on a single PDF. You may choose Lanscape (the default) or Portrait orientation for the PDF. The other settings are explained in the Configure Options section above. Setting them here will override the Configure Options values. If you have Adobe Acrobat or the new free Microsoft Edge PDF Editor, you may edit the generated PDF and place things wherever you like. Just be sure to not modify the QR codes in the document. Automatic PNG . Automatic PNG - selecting this will bring up the below interface. The layout engine tries to figure out the best way to layout your PNG files based on some internal algorithm. If you don’t like the way it turns out, you can manually layout your PNG files by choosing Manual PNG. You may choose the resulting size of the PNG files by changing the Size (width x height). Or, you may choose a pre-defined size (like for your Canon Ivy Printer, so you can print stickers!). We update this list often. You may also change the QR Code colors, Text style and photo transparency (if you have photo answers). Click on an object in the preview to set the properties. For example, the QR code is selected by default when you first get to this screen. You can change the foreground and background colors of the QR code as well as the shape of the little internal ‘rectangles’. QR Code . To change the colors, click on the left color box for foreground or the right color box for background. Then, select a color from the color picker. You’ll see the preview update with your changes. To make the color picker go away, click outside of it. To change the shape of the internal ‘rectangles’, use the left and right arrow buttons. Text . Click on the Text Here at the top of the preview. That will display a row of attributes you can change for the text. You may change the font color, bold, underline and italic. Photo . Click on the picture of the flowers and you may change the opacity of the image. The default is 100 - meaning completely opaque so nothing under the photo shows through. You can change the opacity so that the image background (see below) shows through or blends with the photo. The below sample shows the opacity at 50% on a white background, so it make the photo ‘lighter’. Background . Click on the empty space of the background and you may change the color. The default is white, so the color box above the preview is a little tricky to see. We’ve changed it to light yellow below: . Hot Tip . In the above image, you can see that the background of the QR code is white. We’ll change the background of the QR code to light blue with a 50% transparency (in the color picker). See below. The QR code background becomes light green because the light blue combined with the yellow of the overall Background will give you light green (blue + yellow = green). Make PNGs . When you are finished altering the properties, click Make PNGs to generate your PNG files. You will get a message saying “Generating document(s)…”, then a short animation with a message that says “Open your document(s) here:”. See below: . You have 3 options here: . | Clicking the far left icon will open the PNG files in a new tab in your browser and show you them in a list. This can be helpful if you want to individually print them or just access them without unzipping them. | Clicking the underlined text in the middle (a link to the .zip file) will download the resulting .zip file to your device. | Clicking the far right icon will copy the URL for the .zip file to your copy/paste buffer. | . If you get a message saying “No questions picked for this location” - you need to go back to the Questions and Answers section and make sure you have both at least one Question and at least one Answer per question. To show the Print/Download options again, close, then open the Print/Download accordion. PNG Zip Files . The .zip files generated when you create PNG images instead of PDF contains several files. | directory.json - this file is a directory listing of all questions and answers in the .zip file. The json file (a file for a programmer) contains information about each question and answer - including the file names corresponding to each Question and Answer. If you open it in a text editor, it is readable. Here is an example of the PNG files generated from our Chicken example: { \"location\": \"QR-vote location\", \"questions\": [ { \"id\": \"q_0\", \"question\": \"Which chicken do you like better?\", \"answers\": [ { \"id\": \"q_0_a_0\", \"text\": \"Lady Feathers\", \"image\": \"q_0_a_0.png\", \"size\": { \"width\": 1024, \"height\": 1024 } }, { \"id\": \"q_0_a_1\", \"text\": \"Yellow Fella\", \"image\": \"q_0_a_1.png\", \"size\": { \"width\": 1024, \"height\": 1024 } }, { \"id\": \"q_0_a_2\", \"text\": \"Joker\", \"image\": \"q_0_a_2.png\", \"size\": { \"width\": 1024, \"height\": 1024 } } ], \"image\": \"q_0.png\" } ] } . For QR-Contest, the “location” will always show up as “QR-vote location” (this has more meaning in QR-Answers). The Questions each have an index (the order they were entered in the Questions and Answers section). Each Answer also has an index. Both of these indeces start at 0 (sorry, a computer thing…). A Question is noted by the letter “q”; an Answers is noted by the letter “a”. Given the file names would be crazy long if we used the text of the question and answers, we thought it better to use numbers. So, if you want to find out what the 3rd answer in your first question looks like, you come up with it like this: Start with “q” (Question), then the index (0 since the first one starts at 0, not 1), add “a” for Answer, then the answer index, which for the 3rd one is 2; then put underscores (_) between each item. So, the file name of the first Question’s 3rd answer is: “q_0_a_2.png”. We also print out the Question text - the file name is constructed the same way: q_0.png is the first Question. The json file also has the size of each image. | . You can read up on json (why would you?), but a quick summary is this: each ‘object’ starts and ends with matched curly brackets { }; each array (list) starts and ends with square brackets [ ]. | Question files (see above), for example q_0.png | The Answer files for each question, for example q_0_a_0.png is the first answer to the first question | . Manual PNG . Manual PNG - Selecting this option will allow you to control every visual aspect of each of your questions and answers. See Auto PNG above to see how to change QR Code colors, Text attributes, Photo attributes, and the Background. You may change these for every Answer, or you can modify the 1st Answer to be the layout you would like to use for all of the Answers and choose Apply current layout to all. In addition, if you are on an Answer past the first one, you can use the Match Previous button to match the layout of the Answer you are on to the previous Answer. The Manual PNG layout also allows you to modify the Photo to be Contain or Cover. See the section Question Page Appearance for a description. Click on the Photo and above the Opacity setting will be a checkbox. The default setting is the aspect correct the image and size the containing box around it so that if you resize the box, the image will aspect fill the box. However, if you uncheck the box, you will have two choices. The left is Cover and the right is Contain. You may play with these to see what they do. In addition to colors, fonts, etc. you may also manually locate any of the object in the preview area. Select an object (text, QR code, photo) and you will see gripper handles on the 4 corners of the object (the image above has them around the QR code). You may change the size of the object by dragging the gripper handles, or you may click and drag the middle of the object to relocate it. The stacking order of the objects is: QR Code on top, then the Text answer (if any), then the Photo (if any), then the background. Changing the size of the Text box will increase or decrease the font size to fit your Answer into the box. You may traverse through the Question(s) and Answers using the left and right arrows. When you are done laying out the PNG files, you should press Make PNGs. The PNG files will be generated see here. If you do not traverse through all the questions or answers, the ones you have not visited will use the auto-layout algorithm. ",
+    "url": "/docs/contests/print_download.html#printdownload",
+    
+    "relUrl": "/docs/contests/print_download.html#printdownload"
+  },"29": {
+    "doc": "Print/Download",
+    "title": "Print/Download",
+    "content": "Quick Links . | Print/Download . | PDF | Automatic PNG . | QR Code | Text | Photo | Background | Hot Tip | Make PNGs | . | PNG Zip Files | Manual PNG | . | . Print/Download ",
+    "url": "/docs/contests/print_download.html",
+    
+    "relUrl": "/docs/contests/print_download.html"
+  },"30": {
+    "doc": "Questions and Answers",
+    "title": "Questions and Answers",
+    "content": "Selecting this section will display the list of Questions that you have created. When you go to the Contest Detail screen, the first accordion (section) to open up is this one. To add a new Question, you click on the plus sign Add Question. An empty text box will appear where you enter the Question. You may add multiple Questions per contest prior to paying for and launching your contest. See the NOTE below. First Contest . If this is your first Contest, you will see the plus sign Add Question item. Click it to add your first question. If you return to this screen and the plus sign Add Question does not appear, it is because you have already purchased this Contest and Question. If this is the case, a small help icon will appear to the right of the paid for question reminding you that you cannot add or change this quesiton. You may not add new Questions to an already launched contest. However, it is possible to add new Answers to an already paid for Question. Click the question and you will see the paid for answers with a lock next to them, but the plus sign Add Answer will be available. You may add the new Answers and then go to the Pay and Launch accordion to pay for them. To add a new Question, create a new contest and add the question there. Previous Contest Exists - Copy . If you created a previous contest, when you first go to a new contest, you will see the below interface - which allows you to do two things: 1) Copy Questions and Answers from a prior Contest; 2) Paste Questions and Answers from a spreadsheet that has a specific format. Copy Question(s) from other Contest . If you have prior Contests, and you are creating a brand new Contest, the first (and only first) time you go to add Questions to your new Contest, you will see a drop down with a list of your prior Contests. You may copy those Questions (and Answers if you choose the Inlude Answers checkbox) into this Contest by selecting the Contest and choosing Copy. You will see the Questions copied over to this Contest as new Questions. Paste Questions and Answers from Excel . Sometimes, it is easier to enter your Questions and Answers into a spreadsheet (maybe you already have some there) and then copying those and pasting them into the app. You have to set up your spreadsheet exactly like the exmaple above. The format is a Question in column A on a single line and the Answers in column B on subsequent lines. You can copy/paste multiple questions by repeating the above pattern. Select the 2 columns from Excel and choose copy (CTRL+C or CMD+C), then go back to the app page and press the Paste button (not CTRL+V or CMD+V). That will paste your Questions and Answers into the app. Questions . When you click the plus sign Add Question, a text box should appear for you to start typing into. If it does not, you may also edit the Question text by pressing the Edit icon to the left of the text. You will get the Edit Question form shown below. Alternatively, long pressing the empty text area will also edit inline without the form. If you do not want to edit anything, you may press the back chevron in the upper left. You may delete this question by presing the Delete button. If you make any changes, be sure to press the Update button. You may add Tags that may be used in any Contest. You add a tag by typing the tag value, in the case below, ‘chicken’ was typed. That will add the tag to your global tags. If you have other tags, they will auto-complete as you start to type them. So, if you add ‘chicken’ here and later in an Answer you type ‘ch’ - it should auto-complete to ‘chicken’. The tags are to assist you in organizing your information. They will show up in the user interface on a later update to the application. Answers . To add answers, you need to click on the Question (you’ll see a up/down chevron on the right of the question). When you click the plus sign Add Answer, a text box should appear for you to start typing into (just like Questions). Below you’ll see we added 3 Answers. Any time you have text in a list, you may long-press on it to edit the text inline. This saves you steps from pressing the pencil and editing the text in a form. Reorder Answers . The up/down arrows icon on the left of each Answer allows you to reorder the Answers. Long press on the up/down arrows and then drag the Answer to the position you would like. The Answers will show up in your PDF or PNG files in the order you have them here. Edit Answer . You may edit the Answer details by pressing the pencil icon to the left of the text. You will get the Edit Answer form shown below. Answers may be either Text, Photo or both. The default type is a Text answer. You would enter the Answer in the Text Answer box. If you would like to add a Photo to your Answer, check the Photo checkbox and then choose either Enter URL, Upload or Take Photo. After completing your choice, the image will show up in the Image Preview area. You may rotate your image by using the left and right rotate icons. After you press the Update button, you will not be able to rotate the image, you will have to re-enter it to rotate it. You may add Tags that may be used in any Contest. You add a tag by typing the tag value. That will add the tag to your global tags. If you have other tags, they will auto-complete as you start to type them. The Description area is for your own use. Optional Answer Link . Optional Answer Link This option is very powerful. You specify a link that will either show up on the Results page (after the user scans a QR code answer), or will automatically redirect the user to the Link. Link - Selecting this option will show a Link on the Results page. The Text of the link (the highlighted text the user may click on) can be entered in the Link Text box. For example, if you would like to collect some demographic information, or have someone sign up for your newsletter after then scan the Answer, put “SignUp for Newsletter” as the Link Text and enter the URL for your SignUp form in the Link URL. Below we show a sample where a voter scanned the QR code for the Model S and the Link Text was “Model S” and the Link URL was https://www.tesla.com/sites/default/files/tesla-model-s.pdf . Results after scanning . Automatic Redirect - instead of showing the Results page, the user will be automatically redirected to the Link URL. The Link Text is not used. So, when the voter selects the QR code answer, the vote will be recorded and they will be redirected to the URL you put in the Link URL. Clicking on the underlined Model S will take the voter to the Model S PDF file. This can be used in many ways; for example, let’s say you wanted to distribute some documents. Perhaps your “Question” would be: Download a spec sheet for? Then the answers would say “Model S”, “Model X”, “Model Y”. Then, for each answer, you would select Automatic Redirect and have the Link URL go to https://www.tesla.com/sites/default/files/tesla-model-s.pdf for the Model S, etc. PDF . Results after scanning . ",
+    "url": "/docs/contests/qa_accordion.html#questions-and-answers",
+    
+    "relUrl": "/docs/contests/qa_accordion.html#questions-and-answers"
+  },"31": {
+    "doc": "Questions and Answers",
+    "title": "Questions and Answers",
+    "content": "Quick Links . | Questions and Answers . | First Contest | Previous Contest Exists - Copy . | Copy Question(s) from other Contest | Paste Questions and Answers from Excel | . | Questions | Answers . | Reorder Answers | Edit Answer | Optional Answer Link | . | . | . Questions and Answers ",
+    "url": "/docs/contests/qa_accordion.html",
+    
+    "relUrl": "/docs/contests/qa_accordion.html"
+  },"32": {
+    "doc": "Quick Start",
+    "title": "Quick Start",
+    "content": "Start here to quickly make your first Contest. ",
+    "url": "/docs/quickstart",
+    
+    "relUrl": "/docs/quickstart"
+  },"33": {
+    "doc": "Results Tab",
+    "title": "Results Tab",
+    "content": ". Quick Links . | Results Tab . | Filter and Chart Selection | Real Time Results | Results Summary | . | . The Results tab is where you go to view the results of votes for your different Contests. You will see a list of all Contests and the number of votes each has received. The DRAFT votes are those that do not count towards the end totals. They are the ‘test’ votes that were submitted. The Active vote count shows the number of total votes for all Answers for a given Contest. The text at the top of each rectangle is the Contest Name. The text shown at the bottom of the rectangle is the Abbreviation (if any), or a repeat of the Contest Name from the Contest edit form. &lt;p align=\"center\" class=\"screen-shot\"&gt; &lt;img class=\"image-border\" alt=\"All contest results\" src=\"../../assets/images/results_all.png\"&gt; . &lt;/p&gt; . Click on a Contest to see the details of the votes for that Contest. The Results Summary accordion will open by default. Click on the Questions accordion to see the list of Questions for this Contest and their results. ",
+    "url": "/docs/results.html",
+    
+    "relUrl": "/docs/results.html"
+  },"34": {
+    "doc": "Results Tab",
+    "title": "Filter and Chart Selection",
+    "content": "You may select the results type for both Real Time and Summary at the top of the screen. Currently, the display types are Gradient (a colored gradient with vote count), Bar, Horizontal Bar (HBar), Pie and Donut. Play around with them to see which type you like. It will be saved when you leave this section. There is also a filter icon in the upper right. You may click on this to show votes only from DRAFT or those from ACTIVE votes (the default). ",
+    "url": "/docs/results.html#filter-and-chart-selection",
+    
+    "relUrl": "/docs/results.html#filter-and-chart-selection"
+  },"35": {
+    "doc": "Results Tab",
+    "title": "Real Time Results",
+    "content": "Real Time Results Opening the Real Time Results accordion will allow you to pick a single Question for which you would like to monitor in real-time each vote received. So, as people vote, you will see the results show up here. Click on the Question and the results will show and change as people vote. If you click on the full-screen icon, the display will be maximized for the device you are on. You could put the display near the voters so that they can see who is winning in real-time. To go back to ‘regular’ mode out of full-screen, click on the compress icon. ",
+    "url": "/docs/results.html#real-time-results",
+    
+    "relUrl": "/docs/results.html#real-time-results"
+  },"36": {
+    "doc": "Results Tab",
+    "title": "Results Summary",
+    "content": "Results Summary Opening the Results Summary accordion will show all of the Questions for this Contest. Click on the Question to view the results. Gradient . Pie . ",
+    "url": "/docs/results.html#results-summary",
+    
+    "relUrl": "/docs/results.html#results-summary"
+  },"37": {
+    "doc": "Sign In/Forgot Password",
+    "title": "Sign In",
+    "content": "1To Sign In, fill out your username and password. If you forgot your password, click the Forgot your password? link to reset it. ",
+    "url": "/docs/account/signin.html#sign-in",
+    
+    "relUrl": "/docs/account/signin.html#sign-in"
+  },"38": {
+    "doc": "Sign In/Forgot Password",
+    "title": "Forgot Password",
+    "content": "1To reset your password, enter your username and press Send Code, you will receive a code via email from no-reply@verificationemail.com . 2Enter your code from the email and enter a new password. ",
+    "url": "/docs/account/signin.html#forgot-password",
+    
+    "relUrl": "/docs/account/signin.html#forgot-password"
+  },"39": {
+    "doc": "Sign In/Forgot Password",
+    "title": "Sign In/Forgot Password",
+    "content": " ",
+    "url": "/docs/account/signin.html",
+    
+    "relUrl": "/docs/account/signin.html"
+  }
+}
