@@ -9,7 +9,7 @@ permalink: /
 <span class="inline-icon"><i class="fa-solid fa-arrow-up"></i></span>
 </div>
 
-# QR-Answers.com and QR-Contest.com
+# QR-Contest.com and QR-Answers.com
 {: .no_toc }
 
 QR-Answers and QR-Contest are survey-like applications that allow you to publish a question where the answers are marked with QR codes.  Most QR code survey apps take you to a web page where you have to fill out a lengthy survey or set of forms.  Those survey types lose 90% of thier participants in the first few questions.
