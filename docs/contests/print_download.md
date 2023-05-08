@@ -37,14 +37,26 @@ The other settings are explained in the <span class="inline-accordion">Configure
 {: .note }
 > If you have Adobe Acrobat or the new free Microsoft Edge PDF Editor, you may edit the generated PDF and place things wherever you like.  Just be sure to not modify the QR codes in the document.
 
-### Automatic PNG
-<span class="inline-icon"><i class="fa-regular fa-circle-dot"></i></span> Automatic PNG - selecting this will bring up the below interface.  The layout engine tries to figure out the best way to layout your PNG files based on some internal algorithm.  If you don't like the way it turns out, you can manually layout your PNG files by choosing <span class="inline-icon"><i class="fa-regular fa-circle-dot"></i></span> Manual PNG.
+
+### PNG
+<span class="inline-icon"><i class="fa-regular fa-circle-dot"></i></span> PNG - Selecting this option will allow you to control every visual aspect of each of your questions and answers and output them to multiple PNG files.  Each Question will be in a separate PNG and each answer will be in their own PNG file.  The software will also generate a 'directory' so that you know which Questions and Answers go together.  The program will automatically layout each answer to make them look nicely when output. However, you may adjust any aspect of each PNG by following the below procedures.
 
 <p align="center" class="screen-shot">
-<img class="image-border" alt="automatic PNG generation" src="../../../assets/images/automatic_png.png">
+<img class="image-border" alt="manually layout PNG images" src="../../../assets/images/manual_png.png">
 </p>
 
-You may choose the resulting size of the PNG files by changing the Size (width x height). Or, you may choose a pre-defined size (like for your Canon Ivy Printer, so you can print stickers!).  We update this list often.  You may also change the QR Code colors, Text style and photo transparency (if you have photo answers).
+You may change each property for **every** Answer, or you can modify the 1st Answer to be the layout you would like to use for all of the Answers and choose <span class="inline-button">Apply current layout to all</span>.  In addition, if you are on an Answer past the first one, you can use the <span class="inline-button">Match Previous</span> button to match the layout of the Answer you are on to the previous Answer.
+
+In addition to colors, fonts, etc. you may also manually locate any of the object in the preview area.  Select an object (text, QR code, photo) and you will see gripper handles on the 4 corners of the object (the image above has them around the QR code).  You may change the size of the object by dragging the gripper handles, or you may click and drag the middle of the object to relocate it.  The stacking order of the objects is: QR Code on top, then the Text answer (if any), then the Photo (if any), then the background.
+
+{: .note }
+> Changing the size of the Text box will increase or decrease the font size to fit your Answer into the box.
+
+You may traverse through the Question(s) and Answers using the left <span class="inline-icon"><i class="fa-solid fa-caret-left"></i></span> and right <span class="inline-icon"><i class="fa-solid fa-caret-right"></i></span> arrows.
+
+When you are done laying out the PNG files, you should press <span class="inline-button">Make PNGs</span>.  The PNG files will be generated [see here](#make-pngs).  If you do not traverse through all the questions or answers, the ones you have not visited will use the auto-layout algorithm.
+
+You may choose the resulting size of the PNG files by changing the Size (width x height). Or, you may choose a pre-defined size (like for your Canon Ivy Printer, so you can print stickers!).  We update this list often.  If you are looking to output Avery® labels, you should use the Avery® radio button on the <span class="inline-accordion">Print/Download</span> section. You may also change the QR Code colors, Text style and photo transparency (if you have photo answers).
 
 Click on an object in the preview to set the properties.  For example, the QR code is selected by default when you first get to this screen.  You can change the foreground and background colors of the QR code as well as the shape of the little internal 'rectangles'.  
 
@@ -55,24 +67,30 @@ To change the colors, click on the left color box for foreground or the right co
 <img class="image-border" alt="QR code color picker" src="../../../assets/images/qr_color_picker.png">
 </p>
 
-To change the shape of the internal 'rectangles', use the left <span class="inline-icon-black"><i class="fa-solid fa-caret-left"></i></span> and right <span class="inline-icon-black"><i class="fa-solid fa-caret-right"></i></span> arrow buttons.
+To change the shape of the internal 'rectangles', use the left <span class="inline-icon-black"><i class="fa-solid fa-caret-left"></i></span> and right <span class="inline-icon-black"><i class="fa-solid fa-caret-right"></i></span> arrow buttons.  You can choose circle, triangle, hexagon, star, etc.
 
 <p align="center" class="screen-shot">
 <img class="image-border" alt="QR code internal shapes" src="../../../assets/images/qr_shape_picker.png">
 </p>
 
 #### Text
-Click on the **Text Here** at the top of the preview.  That will display a row of attributes you can change for the text.  You may change the font color, bold, underline and italic.
+Click on the **Text Here** (whatever your text answer is) at the top of the preview.  That will display a row of attributes you can change for the text.  You may change the font color, bold, underline and italic.  If your answer does not have text, it will not appear in the layout.
 
 <p align="center" class="screen-shot">
 <img class="image-border" alt="text attributes, color, bold, underline, italic" src="../../../assets/images/text_attributes.png">
 </p>
 
 #### Photo
-Click on the picture of the flowers and you may change the opacity of the image.  The default is 100 - meaning completely opaque so nothing under the photo shows through.  You can change the opacity so that the image background (see below) shows through or blends with the photo. The below sample shows the opacity at 50% on a white background, so it make the photo 'lighter'.
+Click on the picture of your answer (if you have a photo) and you may change the opacity of the image.  The default is 100 - meaning completely opaque so nothing under the photo shows through.  You can change the opacity so that the image background (see below) shows through or blends with the photo. The below sample shows the opacity at 50% on a white background, so it make the photo 'lighter'.  If your answer does not have a photo, it will not appear in the layout.
 
 <p align="center" class="screen-shot">
 <img class="image-border" alt="photo attributes" src="../../../assets/images/photo_attributes.png">
+</p>
+
+The PNG layout also allows you to modify the Photo to be Contain or Cover.  See the section [Question Page Appearance](#question-page-appearance) for a description.  Click on the Photo and above the Opacity setting will be a checkbox.  The default setting for PNG is to use Cover (the far left radio button) - which means the image will fill the layout box.  If you choose the right radio button, the image will be set to be 'Contained' in the result rectangle.  You may play with these to see what they do.  If you choose the check box on the far right, that means to scale the photo to be the same aspect ratio as the source and to restrict its sizing to match that aspect ratio.  Unchecking the box will revert to Cover and Contain mode.
+
+<p align="center" class="screen-shot">
+<img class="image-border" alt="aspect correct or contain or cover" src="../../../assets/images/manpng_contcover.png">
 </p>
 
 #### Background
@@ -160,27 +178,15 @@ For QR-Contest, the "location" will always show up as "QR-vote location" (this h
 * Question files (see above), for example **q_0.png**
 * The Answer files for each question, for example  **q_0_a_0.png** is the first answer to the first question
 
-### Manual PNG
-<span class="inline-icon"><i class="fa-regular fa-circle-dot"></i></span> Manual PNG - Selecting this option will allow you to control every visual aspect of each of your questions and answers. 
+### Avery ®
+<span class="inline-icon"><i class="fa-regular fa-circle-dot"></i></span> Avery® - Selecting this option will allow you to output your Answers to Avery® labels/documents.  It works just like PNG above, but you are able to choose a different Avery label Template for each Question's Answers.  You may see more Avery Templates by going to <a href="https://www.avery.com/templates" target="_blank">Avery® Templates</a>.  For example, if you want to print your first Question's Answers on Avery® Label 94100 - they will be 4" by 4" square labels.  If you choose, Avery® 5160, you will get a 2.63" by 1" label for each Answer.  We currently support US sizes (Letter), but will be adding A4 sizes shortly. The visual representation on the screen will match the aspect ratio of the chosen label.  If you change the Template choice, it will change for all Answers for the particular question you are on.  Typically, you probably will only have one Question in a Contest, but it is possible to have more than one, so modifying the Template will affect only the chosen Question.
+
+You may control every visual aspect of each of your Answers by using the same process as described above in the PNG section.
 
 <p align="center" class="screen-shot">
-<img class="image-border" alt="manually layout PNG images" src="../../../assets/images/manual_png.png">
+<img class="image-border" alt="Avery label choice" src="../../../assets/images/avery_choice.png">
 </p>
 
-See [Auto PNG](#automatic-png) above to see how to change [QR Code colors](#qr-code), [Text attributes](#text), [Photo attributes](#photo), and the [Background](#background).  You may change these for **every** Answer, or you can modify the 1st Answer to be the layout you would like to use for all of the Answers and choose <span class="inline-button">Apply current layout to all</span>.  In addition, if you are on an Answer past the first one, you can use the <span class="inline-button">Match Previous</span> button to match the layout of the Answer you are on to the previous Answer.
+The only other option not in the PNG layout desribed above is the <span class="inline-icon"><i class="fa-regular fa-square-check"></i></span> Safe checkbox.  If you select the checkbox, there will be a 1/8" dotted nmargin put around the actual label size so that you don't overrun your label dimensions if the paper isn't placed precisely in the printer.   If you uncheck the Safe checkbox, you may move any text, photo or QR code to the absolute edge of the label.
 
-The Manual PNG layout also allows you to modify the Photo to be Contain or Cover.  See the section [Question Page Appearance](#question-page-appearance) for a description.  Click on the Photo and above the Opacity setting will be a checkbox.  The default setting is the aspect correct the image and size the containing box around it so that if you resize the box, the image will aspect fill the box.  However, if you uncheck the box, you will have two choices.  The left is Cover and the right is Contain.  You may play with these to see what they do.
-
-<p align="center" class="screen-shot">
-<img class="image-border" alt="aspect correct or contain or cover" src="../../../assets/images/manpng_contcover.png">
-</p>
-
-In addition to colors, fonts, etc. you may also manually locate any of the object in the preview area.  Select an object (text, QR code, photo) and you will see gripper handles on the 4 corners of the object (the image above has them around the QR code).  You may change the size of the object by dragging the gripper handles, or you may click and drag the middle of the object to relocate it.  The stacking order of the objects is: QR Code on top, then the Text answer (if any), then the Photo (if any), then the background.
-
-{: .note }
-> Changing the size of the Text box will increase or decrease the font size to fit your Answer into the box.
-
-You may traverse through the Question(s) and Answers using the left <span class="inline-icon"><i class="fa-solid fa-caret-left"></i></span> and right <span class="inline-icon"><i class="fa-solid fa-caret-right"></i></span> arrows.
-
-When you are done laying out the PNG files, you should press <span class="inline-button">Make PNGs</span>.  The PNG files will be generated [see here](#make-pngs).  If you do not traverse through all the questions or answers, the ones you have not visited will use the auto-layout algorithm.
-
+<p class="fs-2">Avery and all Avery brands, product names and codes are trademarks of Avery Products Corporation.</p>
