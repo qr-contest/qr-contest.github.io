@@ -181,12 +181,15 @@ For QR-Contest, the "location" will always show up as "QR-vote location" (this h
 ### Avery ®
 <span class="inline-icon"><i class="fa-regular fa-circle-dot"></i></span> Avery® - Selecting this option will allow you to output your Answers to Avery® labels/documents.  It works just like PNG above, but you are able to choose a different Avery label Template for each Question's Answers.  You may see more Avery Templates by going to <a href="https://www.avery.com/templates" target="_blank">Avery® Templates</a>.  For example, if you want to print your first Question's Answers on Avery® Label 94100 - they will be 4" by 4" square labels.  If you choose, Avery® 5160, you will get a 2.63" by 1" label for each Answer.  We currently support US sizes (Letter), but will be adding A4 sizes shortly. The visual representation on the screen will match the aspect ratio of the chosen label.  If you change the Template choice, it will change for all Answers for the particular question you are on.  Typically, you probably will only have one Question in a Contest, but it is possible to have more than one, so modifying the Template will affect only the chosen Question.
 
+{: .note }
+> If you choose Avery as the output type, the Questions themselves will not be printed - for example <i>"Which photo do you like more?"</i> from below.  You can print a PDF with the actual Question text, or just print it using Word or some other Text editor.  We thought it would look funny to print the Question on a label, but if you think not, let us know...
+
 You may control every visual aspect of each of your Answers by using the same process as described above in the PNG section.
 
 <p align="center" class="screen-shot">
 <img class="image-border" alt="Avery label choice" src="../../../assets/images/avery_choice.png">
 </p>
 
-The only other option not in the PNG layout desribed above is the <span class="inline-icon"><i class="fa-regular fa-square-check"></i></span> Safe checkbox.  If you select the checkbox, there will be a 1/8" dotted nmargin put around the actual label size so that you don't overrun your label dimensions if the paper isn't placed precisely in the printer.   If you uncheck the Safe checkbox, you may move any text, photo or QR code to the absolute edge of the label.
+The only other option not in the PNG layout described above is the <span class="inline-icon"><i class="fa-regular fa-square-check"></i></span> Safe checkbox.  If you select the checkbox, there will be a 1/8" dotted nmargin put around the actual label size so that you don't overrun your label dimensions if the paper isn't placed precisely in the printer.   If you uncheck the Safe checkbox, you may move any text, photo or QR code to the absolute edge of the label.
 
 <p class="fs-2">Avery and all Avery brands, product names and codes are trademarks of Avery Products Corporation.</p>
