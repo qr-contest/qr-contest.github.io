@@ -54,7 +54,7 @@ nav_order: 2
   Sometimes, it is easier to enter your Questions and Answers into a spreadsheet (maybe you already have some there) and then copying those and pasting them into the app.  If you don't use column headers, you need to set up your spreadsheet exactly like the example above.  The format is a Question in column A on a single line and the Answers in column B on subsequent lines.  You can copy/paste multiple questions by repeating the above pattern.  Select the 2 columns from Excel and choose copy (CTRL+C or CMD+C), then go back to the app page and make sure the Question text edit box is active with flashing cursor (like below), press the Paste button (CTRL+V or CMD+V).  That will paste your Questions and Answers into the app.
 
 <p align="center" class="screen-shot">
-   <img class="image-border" alt="copy/paste questions only" src="../../assets/images/cp_text_active.png">
+   <img class="image-border" alt="copy/paste questions only" src="../../assets/images/cp_text_active.gif">
 </p>
 
   If you use column headers, you can copy/paste more information in varying formats.  Questions have 3 fields: text, tags and description.  Answers have 7 fields: text, tags, description, imageUrl, linkAction, linkDescription.  The explanation of these fields is below. You don't have to use all of the fields, but be sure to have a field named "text".  If you are only going to paste Questions with no Answers, you can use a spreadsheet with column headers of "text", "tags", "description" - like the below.  Copy the information from the spreadsheet, including the headers, then open a Question text edit box and paste the information.  The app will figure out where to put everything for you. The below will create 2 questions. Here is a sample spreadsheet:
