@@ -31,7 +31,7 @@ nav_order: 3
 <img class="image-border" alt="contest general options" src="../../../assets/images/contest_genopt.png">
 </p>
 
-  <span class="form-label">Limit Responses (per user)</span> - This determines how many times a voter (someone who scans the QR code) can vote.  The default is **Once**.  This will allow a person to have just one vote that counts.  They can change votes by scanning another one, but that will cancel their first vote.  You may also choose:
+  <span class="form-label">Limit Responses (per user)</span> - This determines how many times a voter (someone who scans the QR code) can vote.  The default is **Once**.  This will allow a person to have just one vote that counts.  They can change votes by scanning another one, but that will cancel their first vote.   You may also choose:
 
 Hourly - can vote one time per hour
 
@@ -40,6 +40,8 @@ Daily - can vote one time per day
 Once - (default) can vote one time only
 
 No Limit - can vote as many times as they want
+
+<span class="form-label">How do you limit votes?</span> - When a voter scans the QR code, the app will drop a cookie in the voter's browser.  The voter has to have cookies enabled, or they may not vote.  The cookie does not identify the voter, it just records the fact that they voted.
 
   <span class="form-label">Question Page Header (2 lines maximum)</span> - This text will appear at the top of the generated PDF file.  It will not show on a PNG image if you choose that output option later. The text should help the voter understand what they are supposed to do.  The default of *Use your phone's camera to vote. Scan, Click, Done.* is an example. You may put anything you like there - but it has a maximum of  2 lines.
 
@@ -53,7 +55,7 @@ No Limit - can vote as many times as they want
 <img class="image-border" alt="question page appearance" src="../../../assets/images/contest_qpageappear.png">
 </p>
 
-<span class="form-label">1. QR Code</span> - You may choose the internal Code Shape and foreground and background colors of the QR code that is generated for your answers.  The default internal Code Shape is a square, but there are many options.  Press the left <span class="inline-icon-black"><i class="fa-solid fa-caret-left"></i></span> and right <span class="inline-icon-black"><i class="fa-solid fa-caret-right"></i></span> arrow buttons to choose your code. You should be sure to try your choice out at the size you print so you can verify the code will scan.  You can choose the colors of the QR code by clicking on the foreground (left box) and background (right box) color boxes.
+<span class="form-label">1. QR Code</span> - You may choose the outer Code Style (circle, square), internal Code Shape and foreground and background colors of the QR code that is generated for your answers.  The default internal Code Shape is a square, but there are many options.  Press the left <span class="inline-icon-black"><i class="fa-solid fa-caret-left"></i></span> and right <span class="inline-icon-black"><i class="fa-solid fa-caret-right"></i></span> arrow buttons to choose your code. You should be sure to try your choice out at the size you print so you can verify the code will scan.  You can choose the colors of the QR code by clicking on the foreground (left box) and background (right box) color boxes.
 
 <p align="center" class="screen-shot">
 <img class="image-border" alt="QR code foreground color" src="../../../assets/images/contest_qrfg.png">
@@ -85,5 +87,5 @@ No Limit - can vote as many times as they want
 <img class="image-border" alt="response chart style" src="../../../assets/images/response_chartstyle.png">
 </p>
 
-<span class="form-label">Select chart style</span> - After the user scans an answer, they are redirected to a page that will show them a "Thank You" page, a pie chart or a gradient chart.  The "Thank You" page will not display any results. Both of the other chart types will display the results of prior votes and the current user's vote.  You may pick which type of page is displayed here (pie or gradient).
+<span class="form-label">Select chart style</span> - After the user scans an answer, they are redirected to a page that will show them a "Thank You" page, a pie chart or a gradient chart.  The "Thank You" page will not display any results. Both of the other chart types will display the results of prior votes and the current user's vote.  You may pick which type of page is displayed here (pie or gradient).  Also, you may skip the results page by specifying a Link Url and Automatic Redirect under the Optional Answer Link when you edit each Answer under the [Edit Answer](./qa_accordion.html#edit-answer) screen. 
 

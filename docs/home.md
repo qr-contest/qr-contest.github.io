@@ -71,8 +71,8 @@ Your username will show at the top of the section, followed by a place to enter 
   </p>
 
 
-### Plan Notifications
-<div class="accordion-bar">Plan Notifications</div>
+### Notifications
+<div class="accordion-bar">Notifications</div>
 Currently, the only notification setting is <span class="form-label">Notify Me of Response Limits via Email</span>.  The default is 'on'.  When you purchase a Contest, there is a pre-defined number of responses (votes) and a timeframe associated with the Contest.  If you are getting more responses than you thought, you will get an email notification letting you know that you have run out of responses (number left is 0).  You can increase your limit by going to the <span class="inline-accordion">Pay and Launch</span> [section](./contests/pay_launch#purchase-question-and-answers) of the Contest Detail page.  Below is a sample where a new Answer was added **and** a Purchase Extension was chosen to add 5,000 responses and 2 more months.  
 
   <p align="center" class="screen-shot">
