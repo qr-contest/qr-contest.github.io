@@ -30,7 +30,7 @@ This section is used to actually pay for and launch your Contest.  Until you pur
 This is also the place to come back to if you want to add more Answers (for example, you launch a chili cookoff and someone comes in with a late entry after you purchased the Question).  If your contest is very successful and you only purchased a small number of responses, you can add more responses here.  In addition, if you go over your response limit, there is an option to acquire your overage responses here.  In short, you should check back here every so often to see if you need to purchase any new responses, etc.  If you have selected to receive notifications from the Home page menu - [Edit Profile](../home#plan-notifications) - you will receive an email if your responses are getting close to the limit. Come back here to add more responses if you want to see them.
 
 ### Purchase Question and Answers
-* The first thing you need to do is purchase your Question and Answers.  This section will show you how many Questions you have with how many Answers.  You need to select the plan option you would like to purchase from the dropdown(s).  For our example, we have a Question with 3 Answers.  We think we'll be super successful, so we choose the option with 15,000 responses and 3 months to receive them.  We're posting this Contest on a big Daktronics display at a rodeo!
+* The first thing you need to do is purchase your Question and Answers.  This section will show you how many Questions you have with how many Answers.  You need to select the Basic Plan option from the dropdown.  For our example, we have a Question with 2 Answers.  We think we'll be super successful, so we choose the Basic Plan for 2 answers at $12 and we add an additional 1 month for $10 and add 5,000 responses for $40.  We're posting this Contest on a big Daktronics display at a 2 month long rodeo!
 
 <p align="center" class="screen-shot">
 <img class="image-border" alt="prior purchase of one question with three answers" src="../../../assets/images/pl_purchase0.png">
@@ -60,10 +60,11 @@ If you would like to see only the purchase related to a particular contest, go t
 </p>
 
 ### Purchasing Additional Answers
-If you had a late chili entry like the example above, you might see (4 answers, 3 purchased) and the dropdown would recommend you paying for the 4th answer, otherwise it would not be counted in the voting. See below:
+If you had a late flower entry like the example above, you might see (3 answers, 2 purchased) and the dropdown would recommend you paying for the 3rd answer, otherwise it would not be counted in the voting. See below:
 
 <p align="center" class="screen-shot">
 <img class="image-border" alt="billing pay for added answer" src="../../../assets/images/bill_add_answer.png">
 </p>
 
-
+{: .note }
+> Keep in mind you can always disable an Answer by going back to the Questions and Answers page, clicking on the locked icon (after you purchased) and choose to disable it.  This might be useful if someone brought some chilli that made everyone sick and you didn't want anyone else to vote for it.
