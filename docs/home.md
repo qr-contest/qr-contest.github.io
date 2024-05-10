@@ -54,7 +54,7 @@ VIEW RESULTS to see how many votes have been cast, but your scan will not regist
 This section will only show up immediately after you have purchased something. See [Purchase Confirmation](./contests/pay_launch#purchase-confirmation) for details.  It will show a summary of the purchase here - but only directly after the purchase.  If you want to see a list of all purchases, click the menu icon <span class="inline-icon"><i class="fa-solid fa-bars"></i></span> in the upper right and choose Edit Profile, then Billing.  All transactions will show up there.  If you want to see the billing items for a particular Contest, go to the Contest Detail page and scroll down to the [Pay and Launch](./contests/pay_launch#contest-purchase-history) section.
 
 ## Menu <span class="inline-icon"><i class="fa-solid fa-bars"></i></span>
-In the upper right corner of the Home tab is the 3 bar menu.  This menu allows you to edit your profile (Change Password, Notifications, Billing, Terminate Service) or Log Out.
+In the upper right corner of the Home tab is the 3 bar menu.  This menu allows you to edit your profile (Change Password, Notifications/Emails, Billing, Dashboard Key, Terminate Service) or Log Out.
 
   <p align="center" class="screen-shot">
   <img class="image-border" alt="home tab menu" src="../../assets/images/home_menu.png">
@@ -71,15 +71,21 @@ Your username will show at the top of the section, followed by a place to enter 
   </p>
 
 
-### Notifications
-<div class="accordion-bar">Notifications</div>
-Currently, the only notification setting is <span class="form-label">Notify Me of Response Limits via Email</span>.  The default is 'on'.  When you purchase a Contest, there is a pre-defined number of responses (votes) and a timeframe associated with the Contest.  If you are getting more responses than you thought, you will get an email notification letting you know that you have run out of responses (number left is 0).  You can increase your limit by going to the <span class="inline-accordion">Pay and Launch</span> [section](./contests/pay_launch#purchase-question-and-answers) of the Contest Detail page.  Below is a sample where a new Answer was added **and** a Purchase Extension was chosen to add 5,000 responses and 2 more months.  
+### Notifications/Emails
+<div class="accordion-bar">Notifications/Emails</div>
+You may receive Notifications from the app by selecting which notifications you would like to receive via email. You may subscribe or unsubscribe to any of these in this section.  Also, when you receive the email, there is an unsubscribe link provided to also access your preferences from the email.
+<br>
+<span class="form-label">Rsponse Quota - Receive information about depleting Response quota by subsrbing to this mailing list</span>.  The default is 'on'.  You will get notifications for every 25% overage that you have.  So, if you initially paid for 1,000 responses and you now have 1,250 responses, you will get an email letting you know you are over your limit.  For every 25% over, you will get a new email until the campaign time runs out, or you pay for the overage.  Your contest will still be recording votes when you go over your response limit, however, you will not see them unless you go back to the [Pay and Launch](./contests/pay_launch#purchase-question-and-answers) section and purchase the overage responses by selecting <span class="form-label">Purchase Responses to Offset Overage of X Responses</span> - where X is the number of responses you are over.  You should try go guess accurately how many responses you will get, as the overage price is slightly more than if you had purchased enough responses in the beginning. Once you pay for the overage, your Responses will show up in your [Results](results).
+
 
   <p align="center" class="screen-shot">
   <img class="image-border" alt="purchase extension" src="../../assets/images/purch_extension.png">
   </p>
 
-In addition, you will get notifications for every 25% overage that you have.  So, if you initially paid for 1,000 responses and you now have 1,250 responses, you will get an email letting you know you are over your limit.  For every 25% over, you will get a new email until the campaign time runs out, or you pay for the overage.  Your contest will still be recording votes when you go over your response limit, however, you will not see them unless you go back to the [Pay and Launch](./contests/pay_launch#purchase-question-and-answers) section and purchase the overage responses by selecting <span class="form-label">Purchase Responses to Offset Overage of X Responses</span> - where X is the number of responses you are over.  You should try go guess accurately how many responses you will get, as the overage price is slightly more than if you had purchased enough responses in the beginning. Once you pay for the overage, your Responses will show up in your [Results](results).
+<br>
+<span class="form-label">Subscription ending - Notify Me of approaching Quota end via Email</span>.  
+When you purchase a Contest, there is a pre-defined timeframe associated with the Contest.  You may receive a notification when there is 1 week or 1 day left in your Contest.  You may increase the time of your contest by going to the <span class="inline-accordion">Pay and Launch</span> [section](./contests/pay_launch#purchase-question-and-answers) of the Contest Detail page.  Above is a sample where a new Answer was added **and** a Purchase Extension was chosen to add 5,000 responses and 2 more months.  
+
 
 
 ### Billing
@@ -90,6 +96,14 @@ The Billing section will contain **all** of the transactions you have had.  They
   <img class="image-border" alt="three purchases" src="../../assets/images/chicken_bill_rodeo.png">
   </p>
 
+### Dashboard Key
+<div class="accordion-bar">Dashboard Key</div>
+The Dashboard Key section will show your personal Dashboard API Key.  This key is used as a part of the URL for your contest results [dashboards](/docs/contests/dashboard.html).  If you change the API Key, the URLs you generated before will no longer be valid.  So, you should only change (called Roll API Key) the API Key when you want to disable *all* prior URLs.  After you 'roll' the API Key, you may go to each contest's [Dashboard](/docs/contests/dashboard.html) section and generate a new URL to be shared.
+
+
+  <p align="center" class="screen-shot">
+  <img class="image-border" alt="three purchases" src="../../assets/images/chicken_bill_rodeo.png">
+  </p>
 
 ### Terminate Service
 <div class="accordion-bar">Terminate Service</div>

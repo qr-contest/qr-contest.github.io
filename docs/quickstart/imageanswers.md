@@ -39,12 +39,12 @@ have more visual appeal.
   For each answer shown there are 3 icons on the line. The up/down arrow <span class="inline-icon"><i class="fa-solid fa-up-down"></i></span> allows you to drag the order of the answers so they display in that order (long press on them to drag them).  The pencil icon <span class="inline-icon"><i class="fa-solid fa-pencil"></i></span> allows you to edit the details of the answer (there are many options).  The trash can icon (not shown) on the far right <span class="inline-icon"><i class="fa-solid fa-trash"></i></span> allows you to delete that answer (it will ask you to confirm prior to actually deleting it.)
   </div>
 </div>
-
+<br>
 <div class="step-and-title">
 <div class="step-number"><div class="snumber">4</div></div><div class="step-title">Let's add photos to each chicken.  Click the pencil icon next to <i>Lady Feathers</i>. For details of all the options, see the <a href="../screens/edit_answer">Edit Answers</a> page. For now, we'll just add a photo.</div>
 </div>
 
-   Click the <span class="inline-icon"><i class="fa-regular fa-square-check"></i></span> Photo checkbox. This will add an Image Preview section.  You may enter a URL, Upload an photo, or if you are on your phone - Take a Photo.  We'll upload an photo.
+   Click the <span class="inline-icon"><i class="fa-regular fa-square-check"></i></span> Photo checkbox. This will add an Image Preview section.  You may enter a URL, Upload an photo, or if you are on your phone - Take a Photo.  You may also use any of the suggestion images if you have the <span class="inline-icon"><i class="fa-regular fa-square-check"></i></span> Show free use Images checkbox checked.  We'll upload a photo.
 
    <p align="center" class="screen-shot">
    <img class="image-border" alt="Upload image" src="../../assets/images/upload_image.png">
@@ -79,3 +79,4 @@ have more visual appeal.
   <img width="80%" src="../../../assets/images/images_contain.png">
 </p>
 
+This shows how you can modify how your images are displayed.  If you want the entire image to be displayed, choose Contain.  If you want the image to be centered in the output area, and fill the area, choose Cover.

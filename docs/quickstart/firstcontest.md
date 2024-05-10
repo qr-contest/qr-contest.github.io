@@ -11,7 +11,7 @@ nav_order: 1
 # First Contest
 {: .no_toc }
 This section will show you how to create your first Contest with a single Question and 3 Answers.
-For QR-Contest, go to <a href="https://app.qr-contest.com" target="_blank">https://app.qr-contest.com</a> and log in.  If you have not created an account, go here [Creating an Account](../account) to learn how to sign up.
+For QR-Contest, go to <a href="https://app.qr-contest.com" target="_blank">https://app.qr-contest.com</a> and log in.  If you have not created an account, go to [Creating an Account](../account) to learn how to sign up.
 
 ---
 
@@ -70,7 +70,7 @@ For QR-Contest, go to <a href="https://app.qr-contest.com" target="_blank">https
    <img class="image-border" alt="Print/Download" src="../../assets/images/chicken_printdl.png">
    </p>
 <div class="step-and-title">
-<div class="step-number"><div class="snumber">8</div></div><div class="step-title">You can make a PDF or individual PNG files; just scroll down skipping the options and click <span class="inline-button">Make PDF</span></div>
+<div class="step-number"><div class="snumber">8</div></div><div class="step-title">You can make a PDF with automatic layout, or individual PNG files, or Avery© labels, or manually layout a PDF. Just scroll down skipping the options and click <span class="inline-button">Make PDF</span></div>
 </div>
 
    <p align="center" class="screen-shot">

@@ -66,15 +66,19 @@ No Limit - can vote as many times as they want
 {: .note }
 > Make sure if you alter any values in this section, you need to scroll down and press the <span class="inline-button">Update</span> button.
 
-<span class="form-label">2. Default QR Layout for Text Answers</span> - Currently, there is no choice here. If your answers are text-only (vs photo or photo + text), then they will print with the QR code above the text of the answer.
+<span class="form-label">2. Default QR Layout for Text Answers</span> - Currently, there is no choice here. If your answers are text-only (vs photo or photo + text), then they will print with the QR code above the text of the answer.  
 
-<span class="form-label">3. Default QR Layout for Photo Answers </span> - The images show the layout of the QR code (shown in color) vs. the image (shown in grey).  For example, the first one shows the QR code in the upper left (default) and the image behind and to the right of it.  You may choose the position of the QR code by selecting one of the 6 choices.  The below image shows how this is printed when you have image answers with answer text in a PDF.
+<span class="form-label">3. Default QR Layout for Photo Answers </span> - The images show the layout of the QR code (shown in color) vs. the image (shown in grey).  For example, the first one shows the QR code in the upper left (default) and the image behind and to the right of it.  You may choose the position of the QR code by selecting one of the 6 choices.  The below image shows how this is printed when you have image answers with answer text in an Auto PDF. 
 
 <p align="center" class="screen-shot">
 <img class="image-border" alt="QR code in the upper left with image on the lower right" src="../../../assets/images/qr_upperleft.png">
 </p>
 
 <span class="form-label">4. Fit and Opacity for Photo Answers </span> - You may choose how photos are scaled into the viewable area by selecting <span class="inline-icon"><i class="fa-regular fa-circle-dot"></i></span> Cover or <span class="inline-icon"><i class="fa-regular fa-circle-dot"></i></span> Contain.  Cover means that the photo will comletely fill the static rectangle area of the destination (like the image above).  Contain will scale the photo proportionately keeping its aspect ratio into the destination rectangle - so that you see the whole photo (below).
+
+{: .note }
+>2., 3. and 4. above are only used when using the <span class="inline-icon"><i class="fa-regular fa-circle-dot"></i></span> [Auto PNG](./print_download) output format.
+
 
 <p align="center" class="screen-shot">
 <img class="image-border" alt="photo fully visible with contain setting" src="../../../assets/images/contain.png">
@@ -87,5 +91,5 @@ No Limit - can vote as many times as they want
 <img class="image-border" alt="response chart style" src="../../../assets/images/response_chartstyle.png">
 </p>
 
-<span class="form-label">Select chart style</span> - After the user scans an answer, they are redirected to a page that will show them a "Thank You" page, a pie chart or a gradient chart.  The "Thank You" page will not display any results. Both of the other chart types will display the results of prior votes and the current user's vote.  You may pick which type of page is displayed here (pie or gradient).  Also, you may skip the results page by specifying a Link Url and Automatic Redirect under the Optional Answer Link when you edit each Answer under the [Edit Answer](./qa_accordion.html#edit-answer) screen. 
+<span class="form-label">Select chart style</span> - After the user scans an answer, they are redirected to a page that will show them a "Thank You" page, horizontal bar chart, vertical bar chart, pie chart, or a gradient chart.  The "Thank You" page will not display any results. Both of the other chart types will display the results of prior votes and the current user's vote.  You may pick which type of page is displayed here (pie or gradient).  Also, you may skip the results page by specifying a Link Url and Automatic Redirect under the Optional Answer Link when you edit each Answer under the [Edit Answer](./qa_accordion.html#edit-answer) screen. 
 

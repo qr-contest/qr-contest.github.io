@@ -33,15 +33,16 @@ nav_order: 2
 ### First Contest
   If this is your first Contest, you will see the plus sign <span class="inline-icon"><i class="fa-solid fa-square-plus"></i></span> Add Question item.  Click it to add your first question.
 
-{: .note}
-> If you return to this screen and the plus sign <span class="inline-icon"><i class="fa-solid fa-square-plus"></i></span> Add Question does not appear, it is because you have already purchased this Contest and Question.  If this is the case, a small help icon will appear to the right of the paid for question reminding you that you cannot add or change this quesiton.  You may not add new Questions to an already launched contest.  However, it is possible to add new Answers to an already paid for Question.  Click the question and you will see the paid for answers with a lock next to them, but the plus sign <span class="inline-icon"><i class="fa-solid fa-square-plus"></i></span> Add Answer will be available.  You may add the new Answers and then go to the Pay and Launch accordion to pay for them. To add a new Question, create a new contest and add the question there.
-
 <p align="center" class="screen-shot">
   <img class="image-border" alt="locked answers" src="../../../assets/images/locked_answer.png">
 </p>
 
+{: .note}
+> If you return to this screen and the plus sign <span class="inline-icon"><i class="fa-solid fa-square-plus"></i></span> Add Question does not appear, it is because you have already purchased this Contest and Question.  If this is the case, a small help icon will appear to the right of the paid for question reminding you that you cannot add or change this quesiton.  You may not add new Questions to an already launched contest.  However, it is possible to add new Answers to an already paid for Question.  After purchase, you may disable an Answer by clicking on the lock icon and choosing Yes to disable it.  You may re-enable it by clicking on the subsequent cirlce with the line through it.  To add an Answer, click the question and you will see the paid for answers with a lock next to them, but the plus sign <span class="inline-icon"><i class="fa-solid fa-square-plus"></i></span> Add Answer will be available.  You may add the new Answers and then go to the Pay and Launch accordion to pay for them. To add a new Question, create a new contest and add the question there.
+
+
 ### Previous Contest Exists - Copy
-   If you created a previous contest, when you first go to a new contest, you will see the below interface - which allows you to do two things: 1) Copy Questions and Answers from a prior Contest; 2) Paste Questions and Answers from a spreadsheet that has a specific format.
+   If you created a previous contest, when you first go to a new contest, you will see the below interface - which allows you to do three things: 1) Add a new Question; 2) Copy Questions and Answers from a prior Contest; 3) Paste Questions and Answers from a spreadsheet that has a specific format.
 
 <p align="center" class="screen-shot">
    <img class="image-border" alt="copy or paste questions and answers" src="../../../assets/images/copy_previous.png">
@@ -50,8 +51,19 @@ nav_order: 2
 #### Copy Question(s) from other Contest
    If you have prior Contests, and you are creating a brand new Contest, the first (and only first) time you go to add Questions to your new Contest, you will see a drop down with a list of your prior Contests.  You may copy those Questions (and Answers if you choose the Inlude Answers checkbox) into this Contest by selecting the Contest and choosing Copy.  You will see the Questions copied over to this Contest as new Questions.
 
+<p align="center" class="screen-shot">
+   <img class="image-border" alt="choose prior contest" src="../../../assets/images/copy_dropdown.png">
+</p>
+
 #### 'Smart Paste' Questions and Answers from Excel
-  Sometimes, it is easier to enter your Questions and Answers into a spreadsheet (maybe you already have some there) and then copying those and pasting them into the app.  If you don't use column headers, you need to set up your spreadsheet exactly like the example above.  The format is a Question in column A on a single line and the Answers in column B on subsequent lines.  You can copy/paste multiple questions by repeating the above pattern.  Select the 2 columns from Excel and choose copy (CTRL+C or CMD+C), then go back to the app page and make sure the Question text edit box is active with flashing cursor (like below), press the Paste button (CTRL+V or CMD+V).  That will paste your Questions and Answers into the app.
+  Sometimes, it is easier to enter your Questions and Answers into a spreadsheet (maybe you already have some there) and then copying those and pasting them into the app.  If you don't use column headers, you need to set up your spreadsheet exactly like the example bwlow.
+  
+<p align="center" class="screen-shot">
+   <img class="image-border" alt="choose prior contest" src="../../../assets/images/paste_ui.png">
+</p>
+  
+  
+The format is a Question in column A on a single line and the Answers in column B on subsequent lines.  You can copy/paste multiple questions by repeating the above pattern.  Select the 2 columns from Excel and choose copy (CTRL+C or CMD+C). You may paste these into the app in 2 different ways.  Press the <span class="inline-button">Paste</span> button and it will extract the data from the clipboard. Or, you can choose Add Question and when the text entry box is flashing like below, press the keyboard combination of (CTRL+V or CMD+V).  That will paste your Questions and Answers into the app.
 
 <p align="center" class="screen-shot">
    <img class="image-border" alt="copy/paste questions only" src="../../assets/images/cp_text_active.gif">
@@ -64,7 +76,7 @@ nav_order: 2
 </p>
 
 
-  Note that tags are pipe \| delimited (the vertical bar).  If you would like to just paste Answers, you may use any of the fields above (be sure to include a column named "text").  Copy the area of the spreadsheet and open a text edit area for a new Answer; then paste the values.  The below will create 5 answers. Here is a sample spreadsheet:
+  Note that tags are pipe \| delimited (the vertical bar).  If you would like to just paste Answers, you may use any of the fields above (be sure to include a column named "text").  Copy the area of the spreadsheet and open a text edit area for a new <i>Answer</i>; then paste the values.  The below will create 5 answers. Here is a sample spreadsheet:
 
 <p align="center" class="screen-shot">
    <img class="image-border" alt="copy/paste answers only" src="../../assets/images/cp_a_only.png">
@@ -147,7 +159,7 @@ You may edit the Answer details by pressing the pencil <span class="inline-icon"
    <img class="image-border" alt="edit answer details" src="../../assets/images/edit_answer.png">
 </p>
 
-Answers may be either <span class="form-label">Text</span>, <span class="form-label">Photo</span> or both.  The default type is a <span class="form-label">Text</span> answer.  You would enter the Answer in the <span class="form-label">Text Answer</span> box.  If you would like to add a Photo to your Answer, check the <span class="form-label">Photo</span> checkbox and then choose either <span class="inline-button">Enter URL</span>, <span class="inline-button">Upload</span> or <span class="inline-button">Take Photo</span>.  After completing your choice, the image will show up in the <span class="form-label">Image Preview</span> area.  You may rotate your image by using the left <span class="inline-icon-black"><i class="fa-solid fa-rotate-left"></i></span> and right <span class="inline-icon-black"><i class="fa-solid fa-rotate-right"></i></span> rotate icons.  After you press the <span class="inline-button">Update</span> button, you will not be able to rotate the image, you will have to re-enter it to rotate it.
+Answers may be either <span class="form-label">Text</span>, <span class="form-label">Photo</span> or both.  The default type is a <span class="form-label">Text</span> answer.  You would enter the Answer in the <span class="form-label">Text Answer</span> box.  If you would like to add a Photo to your Answer, you may choose a free suggestion image by checking the <span class="inline-icon"><i class="fa-regular fa-square-check"></i></span> <span class="form-label">Show free use Images</span> checkbox.  When you type Text and tab out of the Text box, the suggestion images will appear.   You may click on one to choose it.  A nice trick for having only an image as an answer is to type into the Text box to find the image, click on it, then uncheck the Text box.  To upload or use a local image, check the <span class="inline-icon"><i class="fa-regular fa-square-check"></i></span><span class="form-label">Photo</span> checkbox and then choose either <span class="inline-button">Enter URL</span>, <span class="inline-button">Upload</span> or <span class="inline-button">Take Photo</span>.  After completing your choice, the image will show up in the <span class="form-label">Image Preview</span> area.  You may rotate your image by using the left <span class="inline-icon-black"><i class="fa-solid fa-rotate-left"></i></span> and right <span class="inline-icon-black"><i class="fa-solid fa-rotate-right"></i></span> rotate icons.  After you press the <span class="inline-button">Update</span> button, you will not be able to rotate the image, you will have to re-enter it to rotate it.
 
 You may add <span class="form-label">Tags</span> that may be used in any Contest.  You add a tag by typing the tag value.  That will add the tag to your global tags.  If you have other tags, they will auto-complete as you start to type them.
 
@@ -170,6 +182,8 @@ Results after scanning
    <img class="image-border" alt="Tesla Model S Brochure" src="../../assets/images/tesla_s_text.png">
 </p>
 
+{: .note}
+> You may change the displayed graphic by changing it under [Configure Options](./config_opts#qr-scan-response-chart-style)
 
 <span class="inline-icon"><i class="fa-regular fa-circle"></i></span> Automatic Redirect - instead of showing the Results page, the user will be automatically redirected to the <span class="form-label">Link URL</span>.  The <span class="form-label">Link Text</span> is not used.  So, when the voter selects the QR code answer, the vote will be recorded and they will be redirected to the URL you put in the <span class="form-label">Link URL</span>. Clicking on the underlined Model S will take the voter to the Model S PDF file.
 
