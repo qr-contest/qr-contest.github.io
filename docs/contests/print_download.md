@@ -23,7 +23,7 @@ nav_order: 4
 
 <div class="accordion-bar">Print/Download</div>
 ## Print/Download
-This section allows you to choose whether to output to an Auto generated PDF(s) for your Question(s) and Answers or to output PNG files (individual images per file) or to Avery© labels, or to manually layout a PDF .  You are allowed to print your contest so that you may test the voting.  Until you launch your contest by paying for it, the results will only show the last vote scanned.  So, if you have a question with 3 answers and you print a PDF out, you can test your campaign by scanning them one at a time and seeing the results.  Each time you scan (no matter who scans), the prior result will be removed.  You can think of this as a 'draft' mode where you are just testing your contest, but not really aggregating results.  After testing and your're ready to launch/publish your contest, go to [Pay and Launch](#pay-and-launch)
+This section allows you to choose whether to output to an Auto generated PDF(s) for your Question(s) and Answers or to output PNG files (individual images per file) or to Avery© labels, or to manually layout a PDF, SVG, or STL (3d Printable) .  You are allowed to print your contest so that you may test the voting.  Until you launch your contest by paying for it, the results will only show the last vote scanned.  So, if you have a question with 3 answers and you print a PDF out, you can test your campaign by scanning them one at a time and seeing the results.  Each time you scan (no matter who scans), the prior result will be removed.  You can think of this as a 'draft' mode where you are just testing your contest, but not really aggregating results.  After testing and your're ready to launch/publish your contest, go to [Pay and Launch](#pay-and-launch)
 
 <p align="center" class="screen-shot">
 <img class="image-border" alt="print and download options" src="../../../assets/images/print_download.png">
@@ -223,3 +223,64 @@ You are able to layout each and every cell if you like, or layout the first one 
 
 
 The customizations work like the PNG and Avery® label layouts described in detail above.
+
+### HTML
+<span class="inline-icon"><i class="fa-regular fa-circle-dot"></i></span> HTML - Selecting this option will allow you to output your Answers to HTML page(s), but you may manually layout each area of the HTML.  
+
+1. Select the Answers per page dropdown and choose whether you want Landscape or Portrait (US Letter) orientation and how many Answers per page you would like to have.  The Questions and Question Page Header are printed on each page if there are more answers than fit on a single page.
+
+<p align="center" class="screen-shot">
+<img class="image-border" alt="Manual PDF size choices" src="../../../assets/images/html_size.png">
+</p>
+
+In Lanscape orientation, 1 per page will fill the entire page (except where the Question, Header and bottom logos print).  The 2 per page will place them side by side; 3 per page will put them side by side in a single row; 4 per page will divide the page into 2 rows of 2; 5 per page will put 3 in the top row and 2 in the bottom (centered); 6 per page will make 2 rows of 3 across.  In Portrait orientation, 1 per page will fill the page; 2 per page will put them in a column; 3 per page will be 1 column; 4 per page will split into 2 rows and columns; 5 per page will make 3 rows - 2 in the 1st 2 rows and 1 in the bottom row; 6 per page will have 3 rows of 2.  Play with it, you'll figure it out.
+<br><br>
+The area you are designing is one of the cells - all cells are the same size depending on what orientation and 'per page' you choose, the aspect ratio of the design surface will change and match the output aspect ratio.  Keep in mind that for this style of layout, there are no margins between the cells - so you should leave some white space around the edges of the design surface or add a colored background.
+<br><br>
+You are able to layout each and every cell if you like, or layout the first one and choose <span class="inline-button">Apply current layout to all...</span>.   However, if you are doing a 'serious' research project, you may want to make sure all choices look the same so that the layout doesn't draw someone's attention to something other than the Answer...
+
+
+The customizations work like the PNG and Avery® label layouts described in detail above.
+### SVG
+<span class="inline-icon"><i class="fa-regular fa-circle-dot"></i></span> SVG - Selecting this option will allow you to output your Answers to SVG (scalable vector graphics) files, but you may manually layout each area of the SVG.  
+
+1. Choose the width and height of the SVG.
+
+<p align="center" class="screen-shot">
+<img class="image-border" alt="Manual PDF size choices" src="../../../assets/images/svg_size.png">
+</p>
+
+The area you are designing is one of the cells.  Each SVG is whatever size you choose for each one.  By default, it will output to all the same size, unless you change the size on an individual answer.
+<br><br>
+You are able to layout each and every cell if you like, or layout the first one and choose <span class="inline-button">Apply current layout to all...</span>.   However, if you are doing a 'serious' research project, you may want to make sure all choices look the same so that the layout doesn't draw someone's attention to something other than the Answer...
+
+The customizations work like the PNG and Avery® label layouts described in detail above.
+
+### STL (Experimental)
+<span class="inline-icon"><i class="fa-regular fa-circle-dot"></i></span> STL - Selecting this option will allow you to output your Answers to STL (Stereolithography) files, but you may manually layout each area of the STL like above.  STL is a 3D printing format supported by most Slicers for 3D printers.  We use a Creality Combo Color in the office as our QR printer.
+
+1. Choose the width and height of the STL in millimeters (mm). You may control the base thickness by setting the base height in mm.  You may also control the height of the printed QR code, text and image (if any) with the top value in mm.  You should try to choose an output size large enough that the QR code details print reasonably well so they can be scanned.
+
+<p align="center" class="screen-shot">
+<img class="image-border" alt="Manual STL size choices" src="../../../assets/images/stl_size.png">
+</p>
+
+What we do is use the slicer and put a PAUSE at the layer where the 'top' starts.  That way we can print a 'white' bottom, then switch the fillament to black or another color so that the QR code and image print in black.  The images are handled with a dithering algorithm to convert the greyscale of the image to black and white dots (or a lithophane).  If you click on the image, you will see some settings for how the image scales, centers, etc.  There is also a dropdown to determine what dithering algorithm you would like to use.  The default is Min Error, which does a descent job.  
+
+<p align="center" class="screen-shot">
+<img class="image-border" alt="Dither choices" src="../../../assets/images/stl_dither.png">
+</p>
+
+If you are printing to a lithophane (kind of a 3d relief), choose Lithophane.  We default the lithophane size to 108 x 144 mm, 1.2mm base and .8mm top.  Then we print it all in white (or a light color).  You can get a 'light box' from Bamboo Labs that will hold this and backlight it for you - which looks and work great.  See below.
+
+<p align="center" class="screen-shot">
+<img class="image-border" alt="Lithophane light box" src="../../../assets/images/stl_lithophane.png">
+</p>
+
+You'll need to experiment with your slicer settings to make sure the QR code is readable.  If you print something too small, a phone will not be able to scan the QR code.  So, be sure to test it after you print it, if it does not work, increase the size.
+
+The area you are designing is one of the cells.  Each SVGSTL is whatever size you choose for each one.  By default, it will output to all the same size, unless you change the size on an individual answer.
+<br><br>
+You are able to layout each and every cell if you like, or layout the first one and choose <span class="inline-button">Apply current layout to all...</span>.   However, if you are doing a 'serious' research project, you may want to make sure all choices look the same so that the layout doesn't draw someone's attention to something other than the Answer...
+
+The customizations work like the PNG and Avery® label layouts, etc. described in detail above.
