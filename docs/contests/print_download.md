@@ -271,7 +271,7 @@ What we do is use the slicer and put a PAUSE at the layer where the 'top' starts
 <img class="image-border" alt="Dither choices" src="../../../assets/images/stl_dither.png">
 </p>
 
-If you are printing to a lithophane (kind of a 3d relief), choose Lithophane.  We default the lithophane size to 108 x 144 mm, 1.2mm base and .8mm top.  Then we print it all in white (or a light color).  You can get a 'light box' from Bamboo Labs that will hold this and backlight it for you - which looks and work great.  See below.
+If you are printing to a lithophane (kind of a 3d relief), choose Lithophane.  We default the lithophane size to 108 x 144 mm, 1.2mm base and .8mm top.  Then we print it all in white (or a light color).  You can get a 'light box' from Bambu Labs that will hold this and backlight it for you - which looks and work great.  The <a href="../../../assets/images/Lithophane%20frame.stl" target="_blank">Lithophane Frame</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons (4.0 International License)</a>. See below photo.
 
 <p align="center" class="screen-shot">
 <img class="image-border" alt="Lithophane light box" src="../../../assets/images/stl_lithophane.png">
