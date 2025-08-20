@@ -265,7 +265,13 @@ The customizations work like the PNG and Avery® label layouts described in deta
 <img class="image-border" alt="Manual STL size choices" src="../../../assets/images/stl_size.png">
 </p>
 
-What we do is use the slicer and put a PAUSE at the layer where the 'top' starts.  That way we can print a 'white' bottom, then switch the fillament to black or another color so that the QR code and image print in black.  The images are handled with a dithering algorithm to convert the greyscale of the image to black and white dots (or a lithophane).  If you click on the image, you will see some settings for how the image scales, centers, etc.  There is also a dropdown to determine what dithering algorithm you would like to use.  The default is Min Error, which does a descent job.  
+What we do is use the slicer and put a PAUSE at the layer where the 'top' starts.  That way we can print a 'white' bottom, then switch the fillament to black or another color so that the QR code and image print in black.  See this photo; the bottom is white, the top is black (corresponding to the dimensions chosen above). The photo doesn't do the 3D print justice, but you get the idea.
+
+<p align="center" class="screen-shot">
+<img class="image-border" alt="STL Side View" src="../../../assets/images/stl_side_view.png">
+</p>
+
+The images are handled with a dithering algorithm to convert the greyscale of the image to black and white dots (or a lithophane).  If you click on the image, you will see some settings for how the image scales, centers, etc.  There is also a dropdown to determine what dithering algorithm you would like to use.  The default is Min Error, which does a descent job.  
 
 <p align="center" class="screen-shot">
 <img class="image-border" alt="Dither choices" src="../../../assets/images/stl_dither.png">
@@ -277,7 +283,7 @@ If you are printing to a lithophane (kind of a 3d relief), choose Lithophane.  W
 <img class="image-border" alt="Lithophane light box" src="../../../assets/images/stl_lithophane.png">
 </p>
 
-You'll need to experiment with your slicer settings to make sure the QR code is readable.  If you print something too small, a phone will not be able to scan the QR code.  So, be sure to test it after you print it, if it does not work, increase the size.
+You'll need to experiment with your slicer settings to make sure the QR code is readable.  If you print something too small, a phone will not be able to scan the QR code.  So, be sure to test it after you print it, if it does not work, increase the size.  Below is a photo of the side view of a 3D print.  The bottom 
 
 The area you are designing is one of the cells.  Each SVGSTL is whatever size you choose for each one.  By default, it will output to all the same size, unless you change the size on an individual answer.
 <br><br>
