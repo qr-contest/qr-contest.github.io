@@ -285,7 +285,7 @@ If you are printing to a lithophane (kind of a 3d relief), choose Lithophane.  W
 
 You'll need to experiment with your slicer settings to make sure the QR code is readable.  If you print something too small, a phone will not be able to scan the QR code.  So, be sure to test it after you print it, if it does not work, increase the size.  Below is a photo of the side view of a 3D print.  The bottom 
 
-The area you are designing is one of the cells.  Each SVGSTL is whatever size you choose for each one.  By default, it will output to all the same size, unless you change the size on an individual answer.
+The area you are designing is one of the cells.  Each STL is whatever size you choose for each one.  By default, it will output to all the same size, unless you change the size on an individual answer.
 <br><br>
 You are able to layout each and every cell if you like, or layout the first one and choose <span class="inline-button">Apply current layout to all...</span>.   However, if you are doing a 'serious' research project, you may want to make sure all choices look the same so that the layout doesn't draw someone's attention to something other than the Answer...
 
