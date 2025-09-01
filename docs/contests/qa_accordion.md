@@ -56,7 +56,7 @@ nav_order: 2
 </p>
 
 #### 'Smart Paste' Questions and Answers from Excel
-  Sometimes, it is easier to enter your Questions and Answers into a spreadsheet (maybe you already have some there) and then copying those and pasting them into the app.  If you don't use column headers, you need to set up your spreadsheet exactly like the example bwlow.
+  Sometimes, it is easier to enter your Questions and Answers into a spreadsheet (maybe you already have some there) and then copying those and pasting them into the app.  If you don't use column headers, you need to set up your spreadsheet exactly like the example below.  Here is a template you may use to put the information into the correct columns with headers. <a href="../../../assets/images/sample_upload.xlsx" _target="blank">sample_upload.xlsx</a>
   
 <p align="center" class="screen-shot">
    <img class="image-border" alt="choose prior contest" src="../../../assets/images/paste_ui.png">
