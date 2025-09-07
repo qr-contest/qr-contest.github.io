@@ -113,7 +113,20 @@ The header fields listed above are:  "question.text", "question.tags", "question
 
 **linkdescription** - This is the text of the hyperlinnk if **linkaction** is set to **embed**.  It is isgnored when **redirect** is chosen for **linkaction**.
 
-**imageurl** - This is a URL of an image that can be displayed as or along with your answer's **text** field.  See **text** above.
+**imageurl** - This is a URL of an image that can be displayed as or along with your answer's **text** field.  You may use URLs that start with http:// or https://.  In addition, you may use a URL that starts with file:// and has a local file name.  When you paste this information, the system will then promt you to Browse or Drag and Drop the referenced images into the interface.  For example, if you have a URL of "file:///Users/gregca/images/Bathroom_2.png", after adding the answers, the system will prompt you to upload "Bathroom_2.png".  If you do not upload all matching file:// file names, the unmatched images will have an empty imageUrl.  You may Edit the answer (or location) to upload individual images.  See **text** above.
+
+#### Location Fields
+**name** - The text to display for the Location name.
+
+**tags** - These are used to help organize things.  To apply multiple tags, separate them with a vertical bar \| character.
+
+**description** - To keep any notes
+
+**latitude** - (Optional) Used to assist in reporting.  e.g. Laguna Beach: 33.541679
+
+**longitude** - (Optiional) Used to assist in reporting. e.g. Laguna Beach: -117.777214
+
+**imageUrl** - (Optional) This is a URL of an image that can be displayed along with your Location. You may use URLs that start with http:// or https://.  In addition, you may use a URL that starts with file:// and has a local file name.  When you paste this information, the system will then promt you to Browse or Drag and Drop the referenced images into the interface.  For example, if you have a URL of "file:///Users/gregca/images/Bathroom_2.png", after adding the answers, the system will prompt you to upload "Bathroom_2.png" (it will ignore the path).  If you do not upload all matching file:// file names, the unmatched images will have an empty imageUrl.  You may Edit the Location to upload individual images.
 
 ### Questions
 When you click the plus sign <span class="inline-icon"><i class="fa-solid fa-square-plus"></i></span> Add Question, a text box should appear for you to start typing into.  
