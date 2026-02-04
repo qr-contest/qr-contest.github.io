@@ -7,12 +7,12 @@
         {
             "label": "Build QR",
             "type": "shell",
-            "command": "bundle install"
+            "command": "eval \"$(rbenv init -)\" && bundle install"
         },
         {
             "label": "Run Server",
             "type": "shell",
-            "command": "bundle exec jekyll serve"
+            "command": "eval \"$(rbenv init -)\" && bundle exec jekyll serve"
         }
     ]
 }
